@@ -10,7 +10,7 @@ const Main = () => {
         <div className="main">
         <div className="nav">
             <p>Go Korat Chatbot</p>
-            <li><a href="home.html">หน้าแรก</a></li>
+            <li><a href="https://free91526.wordpress.com/">หน้าแรก</a></li>
             <k><li><a href="expo.html">Korat Expo 2029</a></li></k>
             <img src={assets.user_icon} alt="" />
         </div>
