@@ -11,7 +11,7 @@ const Main = () => {
         <div className="nav">
             <p>Go Korat Chatbot</p>
             <li><a href="https://free91526.wordpress.com/">หน้าแรก</a></li>
-            <k><li><a href="expo.html">Korat Expo 2029</a></li></k>
+            <k><li><a href="https://wordpress.com/page/free91526.wordpress.com/294">Korat Expo 2029</a></li></k>
             <img src={assets.user_icon} alt="" />
         </div>
         <div className="main-container">
