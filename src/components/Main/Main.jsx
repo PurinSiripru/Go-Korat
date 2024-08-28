@@ -10,9 +10,6 @@ const Main = () => {
         <div className="main">
         <div className="nav">
             <p>Go Korat Chatbot</p>
-            <li><a href="https://free91526.wordpress.com/">หน้าแรก</a></li>
-            <k><li><a href="https://wordpress.com/page/free91526.wordpress.com/294">Korat Expo 2029</a></li></k>
-            <img src={assets.user_icon} alt="" />
         </div>
         <div className="main-container">
 
@@ -24,19 +21,19 @@ const Main = () => {
             </div>
             <div className="cards">
                 <div className="card">
-                    <p>-วางแผนเที่ยว<p></p>ในโคราชให้ที</p>
+                    <p>วางแผนเที่ยว<p></p>ในโคราชให้ที</p>
                     <k><img src={assets.maps_icon} alt="" /></k>
                 </div>
                 <div className="card">
-                    <p>-อาหารชื่อดัง<p></p>ในโคราช</p>
+                    <p>อาหารที่แนะนำ<p></p>ในโคราช</p>
                     <l><img src={assets.foods_icon} alt="" /></l>
                 </div>
                 <div className="card">
-                    <p>-ที่เที่ยวชื่อดัง<p></p>ในโคราช</p>
+                    <p>ที่เที่ยวแนะนำ<p></p>ในโคราช</p>
                     <m><img src={assets.tour_icon} alt="" /></m>
                 </div>
                 <div className="card">
-                    <p>-ห้างสรรพสินค้า<p></p>ชื่อดังในโคราช</p>
+                    <p>ห้างสรรพสินค้า<p></p>ที่แนะนำในโคราช</p>
                     <n><img onClick ={()=>onSent()}src={assets.mall_icon} alt="" /></n>
                 </div>
             </div>
@@ -65,8 +62,6 @@ const Main = () => {
                 <div className="search-box">
                     <input onChange={(e)=>setInput(e.target.value)} value={input} type="text" placeholder="คุณต้องการจะถามอะไร?"/>
                     <div>
-                        <img src={assets.gallery_icon} alt="" />
-                        <img src={assets.mic_icon} alt="" />
                         <img  onClick ={()=>onSent()}src={assets.send_icon} alt="" />
                     </div>
                 </div>
