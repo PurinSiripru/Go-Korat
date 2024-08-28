@@ -3,7 +3,7 @@
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: orange;
+    background-color: #ff4a80;
     padding: 25px 15px;
 }
 .sidebar img{
@@ -16,19 +16,7 @@
     cursor: pointer;
 }
 .sidebar .menu:hover{
-    background-color: silver;
-}
-.sidebar .new-chat{
-    margin-top: 50px;
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    padding: 10px 15px;
-    background-color: silver;
-    border-radius: 50px;
-    font-size: 14px;
-    color: black;
-    cursor: pointer;
+    background-color: white;
 }
 .sidebar .recent{
     display: flex;
@@ -49,7 +37,7 @@
     cursor: pointer;
 }
 .sidebar .recent-entry:hover{
-    background-color: silver;
+    background-color: white;
 }
 .sidebar .bottom{
     display: flex;
